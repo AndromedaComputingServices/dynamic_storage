@@ -1,6 +1,6 @@
 # Dynamic Storage
 
-Disk Management Toolkit for live backup and disk changes
+Disk Management Toolkit for live backup and disk change
 
 # License
 
