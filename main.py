@@ -1,8 +1,4 @@
-# Dynamic Storage
-
-Disk Management Toolkit for live backup and disk change
-
-## License
+"""
 
 Disk Management Toolkit for live backup and disk changes
 
@@ -34,3 +30,24 @@ GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+"""
+import os
+import shutil
+
+def get_disk_usage(path="/"):
+    total, used, free = shutil.disk_usage(path)
+    return total, used, free
+
+def main():
+    total, used, free = get_disk_usage()
+    print(f"Total: {total // (2**30)} GiB")
+    print(f"Used: {used // (2**30)} GiB")
+    print(f"Free: {free // (2**30)} GiB")
+
+if __name__ == "__main__":
+    main()
+
+# This script is designed to run on a Debian GNU/Linux distribution.
+# It retrieves and prints the total, used, and free disk space on the root filesystem.
+# The values are displayed in GiB (Gibibytes).
