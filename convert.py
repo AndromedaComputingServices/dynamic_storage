@@ -1,5 +1,4 @@
 """
-## License
 
 Disk Management Toolkit for live backup and disk changes
 
