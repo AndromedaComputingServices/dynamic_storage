@@ -18,6 +18,8 @@ Copyright (C) 2024-2025 bilsege and contributors
 
 Copyright (C) 2024-2025 Birleşik Dergi Yazarları
 
+Copyright (C) 2024-2025 Andromeda Computing Services and contributors
+
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
 by the Free Software Foundation, either version 3 of the License, or
